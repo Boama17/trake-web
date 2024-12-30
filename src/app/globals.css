@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #eeeeee;
+  --foreground: #ee550e;
+  --light: #e6aa9719;
+  --font-family: Ruberoid, Cantroe;
+}
+
+@font-face{
+  font-family: 'Ruberoid';
+  src: url('./assets/fonts/ruberoid/Ruberoid-Regular.ttf') format('truetype'); 
+  font-style: sans-serif;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: (--font-family);
+}
